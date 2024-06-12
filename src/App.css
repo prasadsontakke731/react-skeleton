@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+.skeletonBlock {
+  box-sizing: border-box;
+  text-align: left;
+}
+.skeletonBlock > * {
+  margin-bottom: 30px;
+  display: block !important;
+}
+
+.skeletonBlock > .paragraph {
+  margin-bottom: 10px;
+  display: block;
+}
+.contentBlock {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  text-align: left;
+}
+.cardBlcok {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  text-align: left;
+}
+
+.cardSkeleton > * {
+  margin-bottom: 20px;
+}
+.cardImageSkeleton {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  justify-items: baseline;
+  gap: 10px;
+}
